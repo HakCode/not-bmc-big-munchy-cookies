@@ -1,0 +1,12 @@
+# FAKE DEVELOPMENT PLATFORM CONFIG for "Big Munchy Cookies" (a cookie store).
+# WARNING: Every credential below is FAKE and non-functional.
+# These are AWS's publicly documented example credentials.
+platform:
+  name: big-munchy-cookies
+  environment: fake-development
+  note: "This is a fake development platform. The AWS key is fake."
+
+aws:
+  region: us-east-1
+  access_key_id: AKIAIOSFODNN7EXAMPLE            # FAKE - AWS documented example
+  secret_access_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY  # FAKE - AWS documented example
